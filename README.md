@@ -1,5 +1,5 @@
 Esta aplicacion se encuentra desplegada con un hosting de firebase, dando click al siguiente enlace puedes correrla directamente.
-https://chaty-4b4aa.web.app/
+https://chatduck-bfdb7.web.app/
 
 # Getting Started with Create React App
 
