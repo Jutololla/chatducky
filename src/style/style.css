@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  color:white;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #424b42, #496669);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #306638, #4f6768); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-dark {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #110b0b, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #222020, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.chat-area, .home {
+  margin-top: 70px;
+}
+
+.chat-area {
+  padding: 30px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-area .chat-bubble {
+  background-color: #928d8d;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+.chat-bubble .chat-time {
+  font-size: 15px;
+  color: #b6b2b2;
+  text-align: center;
+}
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: #524f50;
+}
+
+.jumbotron {
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.form-control {
+  width: 40%;
+  padding: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.btn-submit {
+  background-color: #2e7d32;
+  color: white;
+}
+
+@media (max-width: 692px) {
+	.titleWelcome h2 {
+		line-height: 1.45;
+		font-size: 100px;
+	}
+}
+
+@media (max-width: 492px) {
+	.titleWelcome h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 406px) {
+	.titleWelcome h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 360px) {
+	.titleWelcome h2 {
+		font-size: 20px;
+	}
+}
